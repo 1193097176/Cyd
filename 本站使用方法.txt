@@ -1,0 +1,9 @@
+注意：在访问本站的时候一定要把文件夹拷贝到电脑桌面(否则可能会因为存储空间不足导致所有的包安装不了作者已亲测)
+          一定要保持网络畅通(下载相应的包需要网络)
+1.安装node.js(压缩包内作者已经帮你下好node.js分两个版本64位，32位，读者可以根据自己电脑的系统进行相应的安装)
+2.使用命令安装:cnpm(可以不用安装cnpm但是考虑到国内镜像文件被墙问题最好安装cnpm)
+  npm install -g cnpm --registry=https://registry.npm.taobao.org(进入cmd(win+R)界面输入该命令等其安装完cnpm)
+3.进入vue文件夹：按住shirt+鼠标右键在此处打开powershell命令窗口(或者通过cmd黑白界面进入vue文件夹)
+4.运行cnpm i 命令(安装所有的包)
+5.然后运行npm run dev
+6.稍等webpack打包编译即可访问
